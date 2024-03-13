@@ -4,4 +4,5 @@
 #
 FROM jenkins/agent:jdk17
 
+USER root
 RUN apt-get update && apt-get install skopeo vim curl wget && rm -rf /var/lib/apt/lists/*
