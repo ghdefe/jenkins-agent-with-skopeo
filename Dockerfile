@@ -4,4 +4,8 @@
 #
 FROM openjdk:17
 
-RUN apt-get update && apt-get install -y skopeo && rm -rf /var/lib/apt/lists/*
+RUN command apt || \
+command apk || \
+command yum || \
+command zypper || \
+command brew
