@@ -4,4 +4,4 @@
 #
 FROM openjdk:17
 
-RUN apt-get update && apt-get install -y skopeo
+RUN apt-get update && apt-get install -y skopeo && rm -rf /var/lib/apt/lists/*
