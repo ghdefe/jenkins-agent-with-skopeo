@@ -1,2 +1,2 @@
-# eclipse-temurin:17-jdk
-eclipse-temurin:17-jdk安装skopeo
+# jenkins-agent-with-skopeo:jdk17
+jenkins/agent:jdk17安装skopeo

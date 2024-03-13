@@ -2,6 +2,6 @@
 # openjdk-with-skopeo
 # openjdk17安装skopeo
 #
-FROM eclipse-temurin:17-jdk
+FROM jenkins/agent:jdk17
 
-RUN apt-get update && apt-get install skopeo && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install skopeo vim curl wget && rm -rf /var/lib/apt/lists/*

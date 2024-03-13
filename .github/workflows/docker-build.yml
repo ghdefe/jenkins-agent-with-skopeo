@@ -25,4 +25,4 @@ jobs:
         with:
           push: true
           platforms: linux/amd64,linux/arm64
-          tags: dkdefe/eclipse-temurin-with-skopeo:17-jdk
+          tags: dkdefe/jenkins-agent-with-skopeo:jdk17
