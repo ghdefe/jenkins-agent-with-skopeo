@@ -4,8 +4,4 @@
 #
 FROM openjdk:17
 
-RUN command apt || \
-command apk || \
-command yum || \
-command zypper || \
-command brew
+RUN microdnf install skopeo

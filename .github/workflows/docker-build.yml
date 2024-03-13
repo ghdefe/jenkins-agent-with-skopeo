@@ -23,5 +23,5 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v5
         with:
-          push: false
+          push: true
           tags: dkdefe/openjdk-with-skopeo:17
