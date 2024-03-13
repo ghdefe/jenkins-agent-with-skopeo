@@ -4,4 +4,4 @@
 #
 FROM openjdk:17
 
-RUN microdnf install skopeo
+RUN microdnf install skopeo && microdnf clean all
