@@ -2,6 +2,6 @@
 # openjdk-with-skopeo
 # openjdk17安装skopeo
 #
-FROM openjdk:17
+FROM eclipse-temurin:17-jdk
 
-RUN microdnf install skopeo && microdnf clean all
+RUN apt-get update && apt-get install skopeo && rm -rf /var/lib/apt/lists/*
